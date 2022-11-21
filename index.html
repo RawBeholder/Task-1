@@ -7,33 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 1</title>
     <style>
-        body{
+        .container {
             background-color: black;
-            margin: 0px;
+            height: 540px;
+            width: 960px;
+            min-height: 330px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin:auto;
         }
-        .box1 {
-            height: 240px;
-            width: 511px;
+        .box1{
+            height:180px;
+            width:320px;
+            position:absolute;
             background-color: red;
+            min-height: 90px;
+            min-width: 160px;
         }
-
-        .box2 {
-            height: 240px;
-            width: 511px;
-            background-color: green;
-            position: relative;
-            left: 511px;
-        }
-
-        .box3 {
-            height: 240px;
-            width: 511px;
-            background-color: blue;
-            position: relative;
-            left: 1022px;
-           
-
-        }
+       .box2{
+        height:180px;
+        width:320px;
+        background-color: green;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        min-height: 90px;
+        min-width: 160px;
+       }
+       .box3{
+        height:180px;
+        width:320px;
+        background-color: blue;
+        position: absolute;
+        right:0;
+        bottom: 0;
+        min-height: 90px;
+        min-width: 160px;
+       }
     </style>
 </head>
 
